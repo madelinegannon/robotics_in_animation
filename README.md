@@ -1,5 +1,5 @@
 # Robotics in Animation
-Workshop on Robotics in Animation | _San José State University Department of Design_ | February 2023
+Workshop on Robotics in Animation | _[San José State University Department of Design](https://www.sjsu.edu/design/undergraduate-programs/animation-illustration/index.php)_ | February 2023
 
 
 ## Background
