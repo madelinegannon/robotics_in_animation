@@ -16,13 +16,13 @@ ___
 
 [![Motorizaed Precision](https://img.youtube.com/vi/X6mzlZ4ZFpg/sddefault.jpg)](https://www.youtube.com/watch?v=X6mzlZ4ZFpg)
 
-Motorized Precision, US-based cinmena robot integrator | [KIRA](https://www.motorizedprecision.com/compare) robot
+[Motorized Precision](https://www.motorizedprecision.com/), US-based cinmena robot integrator | [KIRA](https://www.motorizedprecision.com/compare) robot
 
 ---
 
 [![Mark Roberts Motion Control](https://img.youtube.com/vi/WQrrQv1sJcY/mqdefault.jpg)](https://www.youtube.com/watch?v=WQrrQv1sJcY)
 
-MRMC, UK-based cinmena robot integrator | [Bolt Mini](https://www.mrmoco.com/motion-control/bolt-mini-model-mover/) robot for moving models
+[MRMC](https://www.mrmoco.com/), UK-based cinmena robot integrator | [Bolt Mini](https://www.mrmoco.com/motion-control/bolt-mini-model-mover/) robot for moving models
 
 ---
 
