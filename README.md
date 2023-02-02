@@ -8,7 +8,7 @@ Workshop on Robotics in Animation | _[San José State University Department of D
 
 [![Steve Giralt](https://img.youtube.com/vi/HuEyrLbJ25w/sddefault.jpg)](https://www.youtube.com/watch?v=HuEyrLbJ25w)
 
-Steve Giralt, Visual Engineer, Master of Robotic Motion Control for Practical Effects
+[Steve Giralt](https://www.the-garage.tv/about), Visual Engineer, Master of Robotic Motion Control for Practical Effects
 
 ___
 
