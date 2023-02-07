@@ -63,7 +63,9 @@ Here are list of cutting-edge tools that may help in your production pipeline:
 
 1. Connect via ethernet and [setup your network](https://pureinfotech.com/set-static-ip-address-windows-10/) on a _static address_ that is on the same network as the UR5e.
 
-> The U%5e has the static IP address `10.0.0.10`, subnet mask `255.255.255.0` and default gateway `10.0.0.1`.
+> SJSU Laptop login info: .\roboto , pw: Robotrobotrobot1
+
+> The UR5e has the static IP address `10.0.0.10`, subnet mask `255.255.255.0` and default gateway `10.0.0.1`.
 
 > Set your static IP address to `10.0.0.XXX` (e.g., `10.0.0.100`) and copy the same subnet mask and default gateway as the robot.
 
