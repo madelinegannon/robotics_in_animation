@@ -47,6 +47,10 @@ Here are list of cutting-edge tools that may help in your production pipeline:
 
 - Runway's [Frame Interpolation](https://runwayml.com/ai-magic-tools/frame-interpolation/)
 
+- Luma AI #D Capture & NeRF [software](https://lumalabs.ai/) and [app](https://apps.apple.com/us/app/luma-ai/id1615849914)
+  - [KarenX](https://80.lv/articles/mcdonald-s-commercial-made-using-nerf-luma-ai) NeRF Commercial for McDonalds
+  - More NeRF [examples](https://www.nvidia.com/en-us/research/ai-art-gallery/instant-nerf/)
+
 ## Useful links
 
 - [Robots](https://github.com/visose/Robots) for Grasshopper
