@@ -1,0 +1,37 @@
+<URProgram name="shot_06_110a" installation="default" installationRelativePath="default" createdIn="5.11.11" lastSavedIn="5.11.11">
+  <children>
+    <MainProgram runOnlyOnce="true" InitVariablesNode="false">
+      <children>
+        <Script type="File">
+          <cachedContents>def Program():
+  CameraTcp = p[0.035, 0, 0.11, 1.2092, 1.2092, 1.2092]
+  CameraWeight = 2
+  CameraCog = [0.035, 0, 0.11]
+  DefaultSpeed = 0.1
+  DefaultZone = 0
+  popup("Press 'Continue' to reset to Pose 0.", title="Ready?", blocking=True)
+  set_tcp(CameraTcp)
+  set_payload(CameraWeight, CameraCog)
+  movej([3.1362, -2.0706, 1.9062, -1.2978, -1.5514, -1.7151], a=3.1416, v=0.3142, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 1.", title="Pose 1", blocking=True)
+  movel(p[0.29584, 0.13824, 0.37649, -1.29714, 1.21952, -1.00377], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 2.", title="Pose 2", blocking=True)
+  movel(p[0.29675, 0.13103, 0.37548, -1.20733, 1.28301, -0.91573], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 3.", title="Pose 3", blocking=True)
+  movel(p[0.29795, 0.11994, 0.37208, -1.06127, 1.37398, -0.77409], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 4.", title="Pose 4", blocking=True)
+  movel(p[0.29902, 0.10631, 0.36418, -0.8576, 1.4781, -0.57945], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 5.", title="Pose 5", blocking=True)
+  movel(p[0.29939, 0.09264, 0.3495, -0.59048, 1.57931, -0.32859], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 5.", title="Pose 5", blocking=True)
+end
+
+Program()
+Program()
+</cachedContents>
+          <file>shot_06_110a.script</file>
+        </Script>
+      </children>
+    </MainProgram>
+  </children>
+</URProgram>

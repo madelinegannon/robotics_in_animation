@@ -1,4 +1,4 @@
-<URProgram name="follow_path" installation="default" installationRelativePath="default" createdIn="5.11.11" lastSavedIn="5.11.11">
+<URProgram name="shot_03_120" installation="default" installationRelativePath="default" createdIn="5.11.11" lastSavedIn="5.11.11">
   <children>
     <MainProgram runOnlyOnce="true" InitVariablesNode="false">
       <children>
@@ -47,7 +47,7 @@ end
 Program()
 Program()
 </cachedContents>
-          <file>follow_path.script</file>
+          <file>shot_03_120.script</file>
         </Script>
       </children>
     </MainProgram>

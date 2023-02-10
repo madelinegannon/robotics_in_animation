@@ -1,0 +1,43 @@
+<URProgram name="shot_06_110b" installation="default" installationRelativePath="default" createdIn="5.11.11" lastSavedIn="5.11.11">
+  <children>
+    <MainProgram runOnlyOnce="true" InitVariablesNode="false">
+      <children>
+        <Script type="File">
+          <cachedContents>def Program():
+  CameraTcp = p[0.035, 0, 0.11, 1.2092, 1.2092, 1.2092]
+  CameraWeight = 2
+  CameraCog = [0.035, 0, 0.11]
+  DefaultSpeed = 0.1
+  DefaultZone = 0
+  popup("Press 'Continue' to reset to Pose 0.", title="Ready?", blocking=True)
+  set_tcp(CameraTcp)
+  set_payload(CameraWeight, CameraCog)
+  movej([2.4402, -1.9419, 1.9776, -0.7207, -1.0278, -2.6175], a=3.1416, v=0.3142, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 1.", title="Pose 1", blocking=True)
+  movel(p[0.31439, 0.08516, 0.35027, -0.60299, 1.5754, -0.34023], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 2.", title="Pose 2", blocking=True)
+  movel(p[0.31441, 0.08745, 0.3534, -0.65484, 1.55834, -0.3886], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 3.", title="Pose 3", blocking=True)
+  movel(p[0.31421, 0.09481, 0.36127, -0.79787, 1.50405, -0.52294], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 4.", title="Pose 4", blocking=True)
+  movel(p[0.31288, 0.11266, 0.37237, -1.07112, 1.36829, -0.78359], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 5.", title="Pose 5", blocking=True)
+  movel(p[0.31156, 0.12457, 0.37577, -1.22672, 1.26981, -0.93467], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 6.", title="Pose 6", blocking=True)
+  movel(p[0.31089, 0.1299, 0.37646, -1.29288, 1.22267, -0.99957], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 7.", title="Pose 7", blocking=True)
+  movel(p[0.31058, 0.13219, 0.37661, -1.32092, 1.20167, -1.0272], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 8.", title="Pose 8", blocking=True)
+  movel(p[0.3105, 0.1328, 0.37663, -1.32832, 1.19602, -1.03451], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 8.", title="Pose 8", blocking=True)
+end
+
+Program()
+Program()
+</cachedContents>
+          <file>shot_06_110b.script</file>
+        </Script>
+      </children>
+    </MainProgram>
+  </children>
+</URProgram>
