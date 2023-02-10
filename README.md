@@ -19,6 +19,7 @@ We'll be using [Rhino 3D and Grasshopper](https://www.rhino3d.com/6/new/grasshop
   - Install a robot library by clicking on the `Libraries` button of a `Load robot system` component.
     - The robots from the library should appear in a value list connected to a `Load robot system` component.
 
+3. For more detailed information on the Robots plug-in, I recommend this great [YouTube playlist](https://www.youtube.com/watch?v=vAe47zN-d48&list=PLqtxhH1qb3Mw5A_YbvHDfrq4DNNfLtcW-) from  [@robin-gdwl](https://github.com/robin-gdwl).
 
 
 ## Connecting to the Robot
@@ -129,11 +130,12 @@ ___
 
 ### Universal Robot How-Tos
 
+- [Programming Robots in Grasshopper | Robots Plugin for Universal Robots](https://www.youtube.com/watch?v=vAe47zN-d48&list=PLqtxhH1qb3Mw5A_YbvHDfrq4DNNfLtcW-) video tutorials by [@robin-gdwl](https://github.com/robin-gdwl).
 - [How To Transfer a Program via FTP](https://robodk.com/doc/en/Robots-Universal-Robots.html#UR-FTP) with [Filezilla](https://filezilla-project.org/download.php) 
 - [How To Run a Program or Script from the UR Controller](https://robodk.com/doc/en/Robots-Universal-Robots.html#UR-StartProg)
 - [How to enable Remote Control on UR e-Series](https://robodk.com/doc/en/Robots-Universal-Robots.html#DriverURRemoteEnable)
 
-#### Universal Robot Manuals
+### Universal Robot Manuals
 - [Programming Manual](https://s3-eu-west-1.amazonaws.com/ur-support-site/105198/scriptManual_SW5.10.pdf)
 - [UR5e](https://www.universal-robots.com/products/ur5-robot/) | [Datasheet](https://www.universal-robots.com/media/1807465/ur5e-rgb-fact-sheet-landscape-a4.pdf)
 - [UR3e](https://www.universal-robots.com/products/ur3-robot/) | [Datasheet](https://www.universal-robots.com/media/1807464/ur3e-rgb-fact-sheet-landscape-a4.pdf)
