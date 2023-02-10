@@ -1,12 +1,12 @@
 # Robotics in Animation
-Workshop on Robotics in Animation | _[San José State University Department of Design](https://www.sjsu.edu/design/undergraduate-programs/animation-illustration/index.php)_ | February 2023
+Workshop on Robots and Stop Motion Animation | [San José State University Department of Design](https://www.sjsu.edu/design/undergraduate-programs/animation-illustration/index.php) | February 2023
 
 
 ## Introduction
 
-In this workshop, we'll be designing and programming robotic motion-controlled camera paths for a stop-motion animation video.
+In this workshop, we'll be designing and programming robotic motion-controlled camera paths for stop motion animation.
 
-We'll be using [Rhino 3D and Grasshopper](https://www.rhino3d.com/6/new/grasshopper/) to design the camera motion and focal points. And then we will use the [Robots for Grasshopper](https://github.com/visose/Robots) plug-in to program the UR5e robot arm holding our camera to follow our paths.
+We'll be using [Rhino 3D and Grasshopper](https://www.rhino3d.com/6/new/grasshopper/) to design the camera motion and focal points, and the [Robots for Grasshopper](https://github.com/visose/Robots) plug-in to program the UR5e robot arm holding the camera.
 
 
 ## Getting Started
@@ -30,23 +30,17 @@ We'll be using [Rhino 3D and Grasshopper](https://www.rhino3d.com/6/new/grasshop
 
 2. Set up a LAN with a [static IP address](https://pureinfotech.com/set-static-ip-address-windows-10/) on the same network as the UR robot.
 
-  -  Here is [how to find](https://robodk.com/doc/en/Robots-Universal-Robots.html#UR-IP) the robot's IP address.
+    -  Here is [how to find](https://robodk.com/doc/en/Robots-Universal-Robots.html#UR-IP) the robot's IP address.
 
-> SJSU Laptop login info: .\roboto , pw: Robotrobotrobot1
-
-> The UR5e has the static IP address `10.0.0.10`, subnet mask `255.255.255.0` and default gateway `10.0.0.1`.
-
-> Set your static IP address to `10.0.0.XXX` (e.g., `10.0.0.100`) and copy the same subnet mask and default gateway as the robot.
-
-2. Do a [`ping` test](https://www.hellotech.com/guide/for/how-to-do-a-ping-test-windows-10) to check your connectivity.
+3. Do a [`ping` test](https://www.hellotech.com/guide/for/how-to-do-a-ping-test-windows-10) to check your connectivity.
 
 > `Windows Users`: if the ping test fails, your firewall is likely blocking incoming and/or outgoing connections. See troubleshouting tips [here](https://windowsreport.com/windows-10-unable-to-ping-other-computers/#:~:text=What%20can%20I%20do%20if%20I%20can%E2%80%99t%20ping%20other%20computers%20in%20Windows%2010%3F).
 
-3. Once you get a response from the `ping`, you are ready to send a program to the robot.
+4. Once you get a response from the `ping`, you are ready to send a program to the robot.
 
-4. When you are ready to receive a program from Grasshopper, put the robot into [`Remote` mode](https://robodk.com/doc/en/Robots-Universal-Robots-How-enable-Remote-Control-URe.html).
+5. When you are ready to receive a program from Grasshopper, put the robot into [`Remote` mode](https://robodk.com/doc/en/Robots-Universal-Robots-How-enable-Remote-Control-URe.html).
 
-## Running a `.urscript` Remotely from Rhino / Grasshopper
+## Running `urscript` Remotely from Rhino / Grasshopper
 
 Our Grasshopper scripts allow you to send and run your program directly to the robot at the press of a button. This faster workflow is very useful for quickly iterating and fine-tuning a program.
 
