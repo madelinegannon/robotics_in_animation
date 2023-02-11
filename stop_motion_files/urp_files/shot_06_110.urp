@@ -1,0 +1,89 @@
+<URProgram name="shot_06_110" installation="default" installationRelativePath="default" createdIn="5.11.11" lastSavedIn="5.11.11">
+  <children>
+    <MainProgram runOnlyOnce="true" InitVariablesNode="false">
+      <children>
+        <Script type="File">
+          <cachedContents>def Program():
+  CameraTcp = p[0.035, 0, 0.11, 1.2092, 1.2092, 1.2092]
+  CameraWeight = 2
+  CameraCog = [0.035, 0, 0.11]
+  DefaultSpeed = 0.1
+  DefaultZone = 0
+  popup("Press 'Continue' to reset to Pose 0.", title="Ready?", blocking=True)
+  set_tcp(CameraTcp)
+  set_payload(CameraWeight, CameraCog)
+  movej([3.1362, -2.0706, 1.9062, -1.2978, -1.5514, -1.7151], a=3.1416, v=0.3142, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 1.", title="Pose 1", blocking=True)
+  movel(p[0.29584, 0.13824, 0.37649, -1.29714, 1.21952, -1.00377], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 2.", title="Pose 2", blocking=True)
+  movel(p[0.29675, 0.13103, 0.37548, -1.20733, 1.28301, -0.91573], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 3.", title="Pose 3", blocking=True)
+  movel(p[0.29795, 0.11994, 0.37208, -1.06127, 1.37398, -0.77409], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 4.", title="Pose 4", blocking=True)
+  movel(p[0.29902, 0.10631, 0.36418, -0.8576, 1.4781, -0.57945], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 5.", title="Pose 5", blocking=True)
+  movel(p[0.29939, 0.09264, 0.3495, -0.59048, 1.57931, -0.32859], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 6.", title="Pose 6", blocking=True)
+  movel(p[0.31439, 0.08516, 0.35027, -0.60299, 1.5754, -0.34023], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 7.", title="Pose 7", blocking=True)
+  movel(p[0.31441, 0.08745, 0.3534, -0.65484, 1.55834, -0.3886], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 8.", title="Pose 8", blocking=True)
+  movel(p[0.31421, 0.09481, 0.36127, -0.79787, 1.50405, -0.52294], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 9.", title="Pose 9", blocking=True)
+  movel(p[0.31288, 0.11266, 0.37237, -1.07112, 1.36829, -0.78359], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 10.", title="Pose 10", blocking=True)
+  movel(p[0.31156, 0.12457, 0.37577, -1.22672, 1.26981, -0.93467], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 11.", title="Pose 11", blocking=True)
+  movel(p[0.31089, 0.1299, 0.37646, -1.29288, 1.22267, -0.99957], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 12.", title="Pose 12", blocking=True)
+  movel(p[0.31058, 0.13219, 0.37661, -1.32092, 1.20167, -1.0272], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 13.", title="Pose 13", blocking=True)
+  movel(p[0.3105, 0.1328, 0.37663, -1.32832, 1.19602, -1.03451], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 14.", title="Pose 14", blocking=True)
+  movel(p[0.31113, 0.13068, 0.37723, -1.32859, 1.19531, -1.03408], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 15.", title="Pose 15", blocking=True)
+  movel(p[0.31314, 0.12389, 0.37912, -1.32914, 1.19327, -1.03245], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 16.", title="Pose 16", blocking=True)
+  movel(p[0.31673, 0.11176, 0.3825, -1.3301, 1.1896, -1.02956], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 17.", title="Pose 17", blocking=True)
+  movel(p[0.32214, 0.09351, 0.38758, -1.33145, 1.18406, -1.02526], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 18.", title="Pose 18", blocking=True)
+  movel(p[0.32957, 0.0684, 0.39457, -1.33317, 1.17633, -1.01942], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 19.", title="Pose 19", blocking=True)
+  movel(p[0.33922, 0.03584, 0.40364, -1.33512, 1.16616, -1.012], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 20.", title="Pose 20", blocking=True)
+  movel(p[0.35112, -0.00431, 0.41482, -1.33708, 1.15338, -1.00311], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 21.", title="Pose 21", blocking=True)
+  movel(p[0.36502, -0.05124, 0.42789, -1.33869, 1.13807, -0.99311], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 22.", title="Pose 22", blocking=True)
+  movel(p[0.3803, -0.10283, 0.44226, -1.33964, 1.1207, -0.9825], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 23.", title="Pose 23", blocking=True)
+  movel(p[0.39598, -0.15576, 0.457, -1.3399, 1.10214, -0.97179], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 24.", title="Pose 24", blocking=True)
+  movel(p[0.41096, -0.20633, 0.47108, -1.33973, 1.08347, -0.96131], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 25.", title="Pose 25", blocking=True)
+  movel(p[0.42436, -0.25157, 0.48368, -1.33953, 1.06578, -0.95131], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 26.", title="Pose 26", blocking=True)
+  movel(p[0.4357, -0.28986, 0.49434, -1.33955, 1.04994, -0.94209], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 27.", title="Pose 27", blocking=True)
+  movel(p[0.44485, -0.32073, 0.50294, -1.3398, 1.03649, -0.93399], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 28.", title="Pose 28", blocking=True)
+  movel(p[0.45189, -0.3445, 0.50956, -1.34022, 1.02569, -0.92727], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 29.", title="Pose 29", blocking=True)
+  movel(p[0.45701, -0.36179, 0.51437, -1.34069, 1.01755, -0.92204], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 30.", title="Pose 30", blocking=True)
+  movel(p[0.46043, -0.37334, 0.51759, -1.34112, 1.01197, -0.91836], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 31.", title="Pose 31", blocking=True)
+  movel(p[0.46237, -0.37987, 0.51941, -1.34145, 1.00875, -0.91615], a=1, v=DefaultSpeed, r=DefaultZone)
+  popup("Press 'Continue' to go to Pose 32.", title="Pose 32", blocking=True)
+  movel(p[0.463, -0.382, 0.52, -1.34164, 1.00765, -0.91532], a=1, v=DefaultSpeed, r=DefaultZone)
+end
+
+Program()
+</cachedContents>
+          <file>shot_06_110.script</file>
+        </Script>
+      </children>
+    </MainProgram>
+  </children>
+</URProgram>
